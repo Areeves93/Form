@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+   <div class="header">
+        Arlaina C. Reeves
+        <a href="#">Home</a>
+        <a href="myjob.html">My Job</a>
+        <a href="aboutme.html">About Me</a> 
+    </div>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="myjob.html">My Job</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <!-- I need to make the following: Destination email, Full Name, Phone, Delivery Date, 
+            Time, Your Email,Subject line, A text area to hold email and submit button-->
+        <form action="http://fvi-grad.com:4004/email" method="POST">
+            <input type="text" name="dest_email" placeholder="Destination Email"/>
+            <input type="text" name="full_name"placeholder="Full Name"/>
+            <input type="text" name="phone"placeholder="Phone"/>
+            <input type="text"name="ddate" placeholder="Delivery Date"/>
+            <input type="text" name="time"placeholder="Time"/>
+            <input type="text"name="email"placeholder="Your Email"/>
+            <input type="text"name="subject"placeholder="Subject"/>
+            <textarea name="message" id="" cols"30" rows="10"></textarea>
+            <input type="submit" name="submit"/>
+        </form>
+        
+    </div>
+    <div class="footer">
+        Arlaina Reeves
+        areeves@techlaunch.io
+        (754)212-7376
+    </div>
+</body>
+</html>
